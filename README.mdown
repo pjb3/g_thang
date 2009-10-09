@@ -6,4 +6,4 @@ This is a very simple Rack-Compliant HTTP Server based on GServer.  See the `exa
 
 The purpose of this server is just to [illustrate how Rack and GServer work][blog].
 
-[blog]: http://paulbarry.com/articles/2009/10/09/ain-t-nothing-but-a-g-thang
+[blog]: http://paulbarry.com/articles/2009/10/09/aint-nothing-but-a-g-thang
