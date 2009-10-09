@@ -11,7 +11,9 @@ begin
     gem.homepage = "http://github.com/pjb3/g_thang"
     gem.authors = ["Paul Barry"]
     gem.files = ["lib/g_thang.rb"]
-    gem.files += ["lib/g_thang/**"]
+    gem.files += ["lib/g_thang/**/**"]
+    gem.files += ["rails_generators/**/**"]
+    gem.test_files = []
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

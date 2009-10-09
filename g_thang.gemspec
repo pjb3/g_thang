@@ -9,17 +9,20 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Barry"]
-  s.date = %q{2009-10-08}
+  s.date = %q{2009-10-09}
   s.description = %q{A Rack-Compliant HTTP Server Implemented with GServer}
   s.email = %q{mail@paulbarry.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.mdown"
   ]
   s.files = [
     "lib/g_thang.rb",
      "lib/g_thang/http_server.rb",
-     "lib/g_thang/rack_handler.rb"
+     "lib/g_thang/rack_handler.rb",
+     "rails_generators/g_thang/USAGE",
+     "rails_generators/g_thang/g_thang_generator.rb",
+     "rails_generators/g_thang/templates/g_thang.rb"
   ]
   s.homepage = %q{http://github.com/pjb3/g_thang}
   s.rdoc_options = ["--charset=UTF-8"]

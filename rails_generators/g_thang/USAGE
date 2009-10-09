@@ -1,0 +1,7 @@
+Description:
+    Adds the script/g_thang script to your Rails project 
+    so you can run your Rails app on G-Thang, baby.
+    After you run this, you just run script/g_thang to start the app.
+ 
+Examples:
+    `./script/generate g_thang`

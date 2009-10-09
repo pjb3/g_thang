@@ -1,0 +1,9 @@
+This is a very simple Rack-Compliant HTTP Server based on GServer.  See the `examples` directory to see how to run a couple of small rack apps.  To run a Rails 2.3 app, in the root of your Rails app, run these commands:
+
+    $ gem install g_thang
+    $ script/generate g_thang
+    $ script/g_thang
+
+The purpose of this server is just to [illustrate how Rack and GServer work][blog].
+
+[blog]: http://paulbarry.com/articles/2009/10/09/ain-t-nothing-but-a-g-thang
